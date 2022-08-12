@@ -1,2 +1,2 @@
-# vsequencer-electron
+# Movuino Electron/React app
  
