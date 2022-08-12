@@ -1,0 +1,36 @@
+{
+  "name": "vsequencer-electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/hssnadr/vsequencer-electron",
+  "author": "Adrien Husson",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "electron": "^18.2.4",
+    "electron-reload": "^2.0.0-alpha.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --config webpack.common.js --watch",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "osc": "^2.4.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-player": "^2.10.1",
+    "sass": "^1.52.0",
+    "sass-loader": "^13.0.0",
+    "serialport": "^10.4.0",
+    "style-loader": "^3.3.1",
+    "tableify": "^1.1.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

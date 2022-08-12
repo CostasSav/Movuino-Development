@@ -1,0 +1,48 @@
+h1 {
+    color: red;
+    // background-color: red;
+}
+
+p {
+    color: white;
+}
+
+.vsequencer-container {
+    // background-color: blue;
+    color: white;
+    display: block;
+}
+
+.video-composer {
+    background-color: red;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.video-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    // mix-blend-mode: multiply;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.blend-multiply {
+    mix-blend-mode: multiply;
+}
+
+.blend-normal {
+    mix-blend-mode: normal;
+}
+
+.blend-screen {
+    mix-blend-mode: screen;
+}
